@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f9f6f2;
+      color: #2e2e2e;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .logo {
+      font-size: 32px;
+      color: goldenrod;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    .hero {
+      background-image: url('product_1.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      padding: 12px 30px;
+      font-size: 16px;
+      background-color: goldenrod;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    .section {
+      padding: 60px;
+      text-align: center;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .product {
+      width: 300px;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    .product h3 {
+      padding: 10px;
+    }
+    footer {
+      background-color: #2e2e2e;
+      color: white;
+      padding: 40px 60px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Nova</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>A Whisper of Earth</h1>
+    <button>Shop the Collection</button>
+  </section>
+
+  <section class="section">
+    <h2>New In</h2>
+    <div class="products">
+      <div class="product">
+        <img src="product_2.jpg" alt="Rock Dew" />
+        <h3>Rock Dew</h3>
+      </div>
+      <div class="product">
+        <img src="product_3.jpg" alt="Tree Shade" />
+        <h3>Tree Shade</h3>
+      </div>
+      <div class="product">
+        <img src="product_4.jpg" alt="Desert Breeze" />
+        <h3>Desert Breeze</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nova. All rights reserved.</p>
+  </footer>
+</body>
+</html>
